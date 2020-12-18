@@ -1,3 +1,4 @@
+
 import './Like.css';
 
 export function Like({ onClick, isLiked }) {

@@ -13,6 +13,7 @@ export default function Home() {
 
     return (
         <>
+            <h1>Home</h1>
             {state.pictures.map(picture =>
                 <Card key={picture.id} picture={picture} />
             )}
