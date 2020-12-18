@@ -16,6 +16,7 @@ export function Card({ picture }) {
     const onLike = (pictureId) => {
         if (isLiked()) {
             // console.log('unlike');
+            // console.log(pictureId);
             UnlikePictureById(dispatch, pictureId)
         } else {
             // console.log('like');
